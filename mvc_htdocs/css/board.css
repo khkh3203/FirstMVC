@@ -1,0 +1,260 @@
+.boardCon > table{
+  font-size: 20px;
+  margin-left: 10%;
+  width: 80%;
+  /*border: 1px solid black;*/
+  text-align: center;
+  border-collapse: collapse;
+
+}
+#boardList_title{
+
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  background-image: url(../img/patternbox.jpg);
+}
+.board_colorbox{
+  background-color:   #EAEAEA;
+}
+#boards > td{
+  border: 1px dotted green;
+}
+#boards > td > a{
+  color: black;
+    text-decoration: none;
+}
+#boards > td > a:hover{
+  color: #5CD1E5;
+}
+
+#board_btn:hover {
+  color: white;
+}
+#b_btn_con{
+  float: right;
+  border: 1px solid black;
+  width: 160px;
+  height: 40px;
+  margin-top: -40px;
+  margin-right: 130px;
+  background-image: url(../img/patternbox.jpg);
+  text-align: center;
+}
+#board_btn {
+  color: yellow;
+  font-size: 25px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.board_page{
+  text-align: center;
+}
+.board_page > a{
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+.board_page > a:hover{
+  color: skyblue;
+}
+
+/*===============================이하 게시글 상세보기 ==============================*/
+
+.board_title_txt{
+  display: inline-block;
+  color: #8C8C8C;
+}
+.board_title_txt_title{
+  display: inline-block;
+  color: #555555;
+}
+
+#board_title > div{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+  background-color: #CCCCCC;
+  border-radius: 15px;
+
+}
+#board_title_col1{
+  color: black;
+  margin-bottom: 20px;
+}
+#board_title_col4{
+  float: right;
+  margin-right: 10px;
+}
+#board_title_col3{
+  float: right;
+  margin-right: 10px;
+}
+#board_title_col2{
+  float: right;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+#board_file >a{
+  text-decoration: none;
+  color: blue;
+}
+#board_file >a:hover{
+  color: red;
+}
+
+#board_content{
+  clear: both;
+}
+
+#board_content > pre{
+  font-size: 20px;
+  font-weight: bold;
+  /*border: 1px solid black;*/
+  height: auto;
+  overflow-y: scroll;
+  padding: 25px;
+  background-color: #EEEEEE;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.board_btns{
+  color: #666666;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border-style: none;
+}
+.board_btns:hover{
+  color:white;
+  background-color: #666666;
+}
+
+/*----------------------------------------------이하 댓글 폼*/
+
+
+#board_ripple_inputForm > textarea{
+  padding: 10px;
+  float: left;
+  resize: none;
+  margin-left: 5%;
+  width: 60%;
+  height: 123px;
+  font-size: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+#board_ripple_inputForm > input {
+  color: #666666;
+  font-size: 30px;
+  font-weight: bolder;
+  clear: both;
+  height: 145px;
+  width: 150px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: 1px solid grey;
+}
+
+#board_ripple_inputForm > input:hover{
+  color:white;
+  background-color: #666666;
+}
+
+/*---------------------------------------------이하 댓글 폼*/
+#board_ripple > div{
+
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 30%;
+  background-color: #B4D6FF;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+#board_ripple > div > p {
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 20px;
+}
+#board_ripple > div > pre {
+  /*border: 1px solid red;*/
+  width: 65%;
+  white-space: normal;
+  font-size: 15px;
+  display: inline-block;
+  margin-left: 10%;
+}
+#board_ripple > div > a {
+  color: blue;
+  float: right;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 50px;
+}
+#board_ripple > div > a:hover {
+  color: red;
+}
+
+/*----------------------------------------------------이하 게시글 작성 폼*/
+
+
+.bd_title > input {
+  padding-left: 20px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 500px;
+  font-weight: bolder ;
+  height: 30px;
+}
+
+.bd_content > textarea{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 20px;
+  width: 700px;
+  height: 400px;
+  overflow-y: scroll;
+  resize: none;
+}
+
+.bd_file > h2 {
+  display: inline-block;
+}
+.bd_file > input {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 20px;
+
+}
+
+.bd_btn > input{
+  margin-top: 20px;
+  color: #666666;
+  font-size: 30px;
+  font-weight: bolder;
+  clear: both;
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  border: 1px solid grey;
+}
+
+.bd_btn > input:hover{
+  color:white;
+  background-color: #666666;
+}
+
+#boardInput{
+  text-align: center;
+}

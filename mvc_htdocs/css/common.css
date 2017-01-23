@@ -1,0 +1,137 @@
+/*전체적인 기본틀에대한 CSS*/
+
+body {
+
+  margin: 0px;
+  /*background-color: rgb(81, 149, 77);*/
+}
+body > div{
+  align-content: center;
+}
+
+#top_Ad{
+  float: left;
+  width: 100%;
+
+}
+
+#headLine{
+  float: left;
+  height: 50px;
+  width: 100%;
+  background-image: url(../img/menubanner.jpg);
+}
+#headLine >nav {
+  margin-top: 10px;
+margin-right: 130px;
+}
+#headLine >nav > a{
+text-decoration: none;
+color: white;
+font-weight: bold;
+float: right;
+margin-right: 10px;
+}
+#headLine >nav > a:hover{
+  color: yellow;
+}
+#userHeader {
+  display: inline;
+  margin-left: 200px;
+  color: white;
+}
+
+#menu{
+  float: left;
+  height: 270px;
+  overflow: hidden;
+  width: 100%;
+  /*border-bottom: 2px solid green;*/
+}
+#mark{
+  float: left;
+  margin-top: 60px;
+  margin-left: 5%;
+  width: 20%;
+}
+
+#top_menus{
+  width: 40%;
+  margin-top: 40px;
+  margin-left: 15%;
+  float: left;
+
+}
+.nav_con {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+.topnav {
+  margin-left: 30px;
+  width: 160px;
+  /*background-color: green;*/
+}
+.topnav > a {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+}
+.subnav{
+  display: none;
+  list-style: none;
+  width: 120px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0px;
+  margin-left: 30px;
+
+}
+.subnav > a > li {
+  text-align: center;
+
+  list-style: none;
+  width: auto;
+  height: auto;
+
+
+}
+.subnav > a{
+  color: rgb(0,100,0);
+  height: 20px;
+
+}
+.subnav > a:hover{
+  color: white;
+}
+.subnav > a > li:hover{
+  background-image: url(../img/menubanner.jpg);
+  border-radius: 10px;
+
+}
+
+.subnav > a ,.topnav > a{
+  text-decoration: none;
+}
+#mainForm{
+  margin-left: 10%;
+  margin-bottom: 50px;
+  align-content: center;
+  float: left;
+
+  height: auto;
+  width: 80%;
+}
+
+#mainForm > .mimg {
+  width: 100%;
+}
+
+#bottomLine{
+  float: left;
+  background-image: url(../img/patternbox.jpg);
+  height: 200px;
+  width: 100%;
+}

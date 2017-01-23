@@ -1,0 +1,63 @@
+/*회원가입/로그인 페이지에 대한 CSS*/
+
+#member_img {
+  float: left;
+  width: 450px;
+  height: 550px;
+}
+#Login_img {
+  float: right;;
+  width: 350px;
+  height: 550px;
+}
+#memberUl {
+  list-style: none;
+  float: left;
+}
+#memberUl > li {
+  margin-bottom: 8px;
+  margin-right: 10px;
+  font-weight: bolder;
+
+}
+#memberFormUl {
+  list-style: none;
+}
+.box , .sex {
+  margin-top: 10px;
+}
+.phone {
+  list-style: none;
+  width: 50px;
+}
+#clear {
+  margin-top: 5px;
+}
+
+#memberFormUl > li > h4 {
+  display: inline;
+}
+#sub_btn:hover {
+  color: yellow;
+}
+#sub_btn {
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  width: 150px;
+  height: 50px;
+  border-color: black;
+  background-image: url(../img/patternbox.jpg);
+  float: right;
+  margin-top: 70px;
+  margin-right: 80px;
+
+}
+
+.lbox {
+  margin-left: 100px;
+  margin-top: 50px;
+  font-size: 30px;
+  width: 400px;
+  height: 50px;
+}

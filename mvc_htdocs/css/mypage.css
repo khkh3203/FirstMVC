@@ -1,0 +1,95 @@
+.mypage_col1{
+  float: left;
+  margin-right: 50px;
+  /*border: 1px solid black;*/
+}
+.mypage_col2{
+  /*border: 1px solid black;*/
+}
+.mypage_col1 > ul{
+
+  list-style: none;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.mypage_col1 > ul > li{
+  margin-top: 10px;
+}
+.mypage_col1 > ul > li > a{
+  margin-left: 0px;
+  color: black;
+  margin-top: 10px;
+}
+.mypage_col1 > ul > li > a:hover{
+  color: skyblue;
+}
+/*#history_table{
+  border: 2px solid red;
+}*/
+#history_table_top{
+  color: white;
+  background-color: #3162C7;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+#history_table_list{
+  text-align: center;
+  font-size: 20px;
+}
+#history_table_list > td{
+  border-bottom: 15px solid #ACDCFE;
+}
+.history_img{
+  width: 200px;
+  height: 200px;
+}
+.history_colorbox{
+  background-color: #C4DEFF;
+}
+.history_page{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.history_page > a{
+  text-decoration: none;
+  color: black;
+}
+.history_page > a:hover{
+  color: skyblue;
+}
+.creator > img{
+  margin-left: 100px;
+  border: 20px solid grey;
+ width: 60%;
+}
+#unmember_form{
+  /*border:1px solid black;*/
+  margin-left: 300px;
+}
+.unmember_box{
+  font-size: 25px;
+  height: 50px;
+  width: 200px;
+  display: block;
+  margin: 20px;
+}
+.unmember_btn:hover {
+  color: yellow;
+}
+.unmember_btn {
+  float: left;
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  width: 140px;
+  height:140px;
+  border-color: black;
+  background-image: url(../img/patternbox.jpg);
+  margin-top: -155px;
+  margin-left: 300px;
+
+}
